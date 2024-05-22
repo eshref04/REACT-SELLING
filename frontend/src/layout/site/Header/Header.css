@@ -1,0 +1,45 @@
+.header__start__icons div{
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: 0.3s linear;
+}
+
+.header__start__icons div:hover{
+    color: #f16821;
+    cursor: pointer;
+}
+
+.header__start__links a i{
+    
+    color: #f16821;
+}
+
+.header__end .container .header__end__logo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+.header__end__logo__span{
+    color: #f16821;
+    font-size: 70px;
+    margin-right: 20px;
+}
+
+.header__end__menu a:hover{
+    color: #f16821;
+}
+
+.header__end__menu a{
+  transition: 0.3s linear;
+}
+

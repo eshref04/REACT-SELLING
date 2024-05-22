@@ -1,0 +1,77 @@
+.hero__section__btns{
+    display: flex;
+
+}
+
+.hero__section .container{
+   z-index: 1;
+}
+
+.hero__section .container h1{
+    font-size: 80px;
+}
+
+.hero__section .container p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero__section__btns button{
+    padding: 16px 48px;
+    cursor: pointer;
+    
+}
+
+.hero__section__btns__shop{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.3s linear;
+}
+
+.hero__section__btns__shop:hover{
+    border: none;
+    background-color: #fff;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.hero__section__btns__club{
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.3s linear;
+    border: 2px solid transparent;
+}
+
+.hero__section__btns__club:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    
+}
+
+
+.hero__section{
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+    background-position: 50% -107.594px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    
+}
+
+.hero__section::before{
+   
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}

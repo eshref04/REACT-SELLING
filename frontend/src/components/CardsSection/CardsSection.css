@@ -1,0 +1,74 @@
+.cards__section__heading{
+    text-align: center;
+}
+
+.cards__section__heading h3{
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cards__section__heading h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.cards__section__heading p{
+    color: #808080;
+    font-size: 16px;
+    margin-top: 17px;
+}
+
+.cards__section__crd__body__btns button{
+    padding: 6px 20px;
+}
+
+.cards__section__crd__body__btns__cart{
+    border: 2px solid transparent;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.cards__section__crd__body__btns__cart:hover{
+   border: 2px solid black;
+   background-color: transparent;
+   color: black;
+}
+
+.cards__section__crd__body__btns__view{
+    border: 2px solid black;
+    font-size: 14px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.cards__section__crd__body__btns__view:hover{
+    border: 2px solid transparent;
+    background-color: #000;
+    color: white;
+}
+
+.cards__section__crd__body__icons span,.cards__section__crd__body p{
+    font-size: 15px;
+    color: #808080;
+}
+
+.star__icon{
+    color: #f89d13 
+}
+
+.heart__icon{
+    color: #f23a2e;
+}

@@ -1,0 +1,48 @@
+.leader__section__icons div{
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.leader__section__icons div:hover{
+    background-color: black;
+}
+
+
+.leader__section__heading h3{
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.leader__section__heading h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.leader__section__user h3{
+    font-size: 18px;
+    color: #808080;
+}
+
+.leader__section__user span{
+    color: #ccc !important;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.leader__section__user p{
+    color: #808080;
+}
